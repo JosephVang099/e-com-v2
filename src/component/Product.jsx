@@ -1,7 +1,13 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@mui/icons-material';
 import React from 'react'
+import { Link, NavLink, Route } from "react-router-dom";
 import styled from 'styled-components';
-import './Product.css';
+
+
+import Americano from '../pages/products/Americano';
+
+
+
 
 const Info = styled.div`
     opacity: 0;
@@ -72,9 +78,14 @@ const Product = ({ item }) => {
                 <ShoppingCartOutlined />
             </Icon>
 
+            
             <Icon>
-                <SearchOutlined />
+                <NavLink to="/Americano">
+                    <SearchOutlined />
+                    
+                </NavLink>
             </Icon>
+            
 
             <Icon>
                 <FavoriteBorderOutlined />
