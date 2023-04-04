@@ -67,10 +67,9 @@ const Navbar = () => {
                 <Logo>AZN BUZZIN ~_~</Logo>
             </Center>
             <Right>
-                <MenuItem>REGISTER</MenuItem>
-                <MenuItem>SIGN IN</MenuItem>
+                <MenuItem>CONTACT US</MenuItem>
                 <MenuItem>
-                <Badge badgeContent={4} color="primary">
+                <Badge badgeContent={0} color="primary">
                     <ShoppingCartOutlined color="action" />
                 </Badge>
                 </MenuItem>
