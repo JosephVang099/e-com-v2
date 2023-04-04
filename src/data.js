@@ -12,30 +12,57 @@ import AppleSoju from './Img/applesoju.jpeg';
 import PeachySoju from './Img/peachysoju.jpeg';
 
 
+export const sliderItems = [
+  {
+    id: 1,
+    img: [AppleSoju],
+    title: "DISCOUNT!!!",
+    desc: "SOJU ON SALE!! ONLY LIMITED TIME!! FROM MAY 1st TO JULY 20th",
+    bg: "f5fafd",
+  },
+  {
+    id: 2,
+    img: [PeachySoju],
+    title: "PEACHY SOJU",
+    desc: "NEWEST FLAVOR IN TOWN!! DON'T MISS OUT!! ONLY FOR LIMITED TINE!!",
+    bg: "fcf1ed",
+  },
+  {
+    id: 3,
+    img: [OriginalSoju],
+    title: "ORIGINAL SOJU",
+    desc: "TRADITIONALLY MADE",
+    bg: "fbf0f4",
+  },
+];
+
+
+
+
 export const popularProducts = [
   {
     id:1,
-    img: [GrapeSoju],
-  },
-  {
-    id:2,
-    img: [HoneySoju],
-  },
-  {
-    id:3,
-    img: [OriginalSoju],
-  },
-  {
-    id:4,
     img: [AmericanoSoju],
   },
   {
+    id:2,
+    img: [AppleSoju],
+  },
+  {
+    id:3,
+    img: [CitronSoju],
+  },
+  {
+    id:4,
+    img: [GrapeSoju],
+  },
+  {
     id:5,
-    img: [LycheeSoju],
+    img: [HoneySoju],
   },
   {
     id:6,
-    img: [CitronSoju],
+    img: [LycheeSoju],
   },
   {
     id:7,
@@ -43,23 +70,23 @@ export const popularProducts = [
   },
   {
     id:8,
-    img: [PineappleSoju],
+    img: [OriginalSoju],
   },
   {
     id:9,
-    img: [PomegranateSoju],
+    img: [PeachySoju],
   },
   {
     id:10,
-    img: [WatermelonSoju],
+    img: [PineappleSoju],
   },
   {
     id:11,
-    img: [AppleSoju],
+    img: [PomegranateSoju],
   },
   {
     id:12,
-    img: [PeachySoju],
+    img: [WatermelonSoju],
   },
 ]
 
