@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
-import FreshSoju from "../Img/applesoju.jpeg"
+import AppleSoju from "../Img/applesoju.jpeg"
 import styled from "styled-components"
 
 // import { sliderItems } from "../data";
@@ -89,7 +89,7 @@ const Slider = () => {
         <Wrapper slideIndex = {slideIndex}>
             <Slide bg="f5fafd">
                 <ImgContainer>
-                    <Image><img src={FreshSoju} alt="Soju" /></Image>
+                    <Image><img src={AppleSoju} alt="Soju" /></Image>
                 </ImgContainer>
                 <InfoContainer>
                     <Title>DISCOUNT</Title>
@@ -100,7 +100,7 @@ const Slider = () => {
             
             <Slide bg="fcf1ed">
                     <ImgContainer>
-                        <Image><img src={FreshSoju} alt="Soju" /></Image>
+                        <Image><img src={AppleSoju} alt="Soju" /></Image>
                     </ImgContainer>
                     <InfoContainer>
                         <Title>DISCOUNT</Title>
@@ -111,7 +111,7 @@ const Slider = () => {
             
             <Slide bg="fbf0f4">
                 <ImgContainer>
-                    <Image><img src={FreshSoju} alt="Soju" /></Image>
+                    <Image><img src={AppleSoju} alt="Soju" /></Image>
                 </ImgContainer>
                 <InfoContainer>
                     <Title>DISCOUNT</Title>
