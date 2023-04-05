@@ -60,6 +60,7 @@
 
 import React from 'react';
 
+import Product from '../src/component/Product';
 
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
@@ -68,8 +69,9 @@ import Cart from './pages/Cart';
 import Americano from './pages/products/Americano';
 
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
+  Routes,
   Route,
   Redirect,
 } from "react-router-dom";
@@ -79,13 +81,14 @@ function App() {
   const user = true
   return (
     // <ContactUs />
-    <Router>
+    <BrowserRouter>
       <Switch>
         <Route exact path="/Home">
           <Home />
         </Route>
-        <Route path="/product/:id">
-          element={<Americano />}
+        <Route exact path="/" component={Product} />
+        <Route exact path="/Americano" component={Americano} >
+          <Americano />
         </Route>
         <Route path="/cart">
           <Cart />
@@ -96,7 +99,7 @@ function App() {
         </Route>
         
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 }
 
