@@ -12,7 +12,7 @@ const Home = () => {
         <Announcement />
         <Navbar />
         <Slider />
-        <Products to="/product/:id"/>
+        <Products />
         <Newsletter />
         <Footer />
     </div>
