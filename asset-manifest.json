@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/e-com-v2/static/css/main.e6c13ad2.css",
+    "main.js": "/e-com-v2/static/js/main.ae19b247.js",
+    "static/js/787.d83c8892.chunk.js": "/e-com-v2/static/js/787.d83c8892.chunk.js",
+    "static/media/pineapplesoju.jpeg": "/e-com-v2/static/media/pineapplesoju.788f05716a037cb13b21.jpeg",
+    "static/media/pomegranatesoju.jpeg": "/e-com-v2/static/media/pomegranatesoju.0ac528c4265528ba1438.jpeg",
+    "static/media/citronsoju.jpeg": "/e-com-v2/static/media/citronsoju.c48fd3fa2cac69534666.jpeg",
+    "static/media/lycheesoju.jpeg": "/e-com-v2/static/media/lycheesoju.61708cbd8918a6555873.jpeg",
+    "static/media/mangosoju.jpeg": "/e-com-v2/static/media/mangosoju.ea34e883ca714e639c25.jpeg",
+    "static/media/honeysoju.jpeg": "/e-com-v2/static/media/honeysoju.15a7e0b7892e4ae85e80.jpeg",
+    "static/media/watermelonsoju.jpeg": "/e-com-v2/static/media/watermelonsoju.3c3a18b63ff86d356a60.jpeg",
+    "static/media/americanosoju.jpeg": "/e-com-v2/static/media/americanosoju.b4087a90bcdca6a695ab.jpeg",
+    "static/media/grapesoju.jpeg": "/e-com-v2/static/media/grapesoju.3e9cfe790883b0dc96e8.jpeg",
+    "static/media/peachysoju.jpeg": "/e-com-v2/static/media/peachysoju.91fb7e5eefc8af437959.jpeg",
+    "static/media/originalsoju.webp": "/e-com-v2/static/media/originalsoju.d870db56669a7de34b36.webp",
+    "static/media/applesoju.jpeg": "/e-com-v2/static/media/applesoju.d869dcd87db12953f153.jpeg",
+    "index.html": "/e-com-v2/index.html",
+    "main.e6c13ad2.css.map": "/e-com-v2/static/css/main.e6c13ad2.css.map",
+    "main.ae19b247.js.map": "/e-com-v2/static/js/main.ae19b247.js.map",
+    "787.d83c8892.chunk.js.map": "/e-com-v2/static/js/787.d83c8892.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ae19b247.js"
+  ]
+}
