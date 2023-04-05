@@ -6,7 +6,7 @@ import Footer from '../../component/Footer';
 import Navbar from '../../component/Navbar';
 import Newsletter from '../../component/Newsletter';
 
-import AmericanoSoju from '../../Img/americanosoju.jpeg'
+import AmericanoSoju from '../../Img/americanosoju.jpeg';
 
 
 
